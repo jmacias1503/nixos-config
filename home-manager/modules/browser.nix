@@ -9,21 +9,21 @@
 		];
 		extraOpts = {
 			"CookiesAllowedForUrls" = [
-				"[*.]canva.com",
-				"[*.]chatgpt.com",
-				"[*.]dbdiagram.io",
+				"[*.]canva.com"
+				"[*.]chatgpt.com"
+				"[*.]dbdiagram.io"
 				"[*.]github.com"
-				"[*.]google.com",
+				"[*.]google.com"
 				"[*.]youtube.com"
 			];
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
 			"JavaScriptAllowedForUrls" = [
-				"[*.]canva.com",
-				"[*.]chatgpt.com",
-				"[*.]dbdiagram.io",
+				"[*.]canva.com"
+				"[*.]chatgpt.com"
+				"[*.]dbdiagram.io"
 				"[*.]github.com"
-				"[*.]google.com",
+				"[*.]google.com"
 				"[*.]youtube.com"
 			];
 		};
