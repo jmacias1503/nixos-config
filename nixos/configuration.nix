@@ -103,6 +103,7 @@ in
     bluedevil
     blueman
     brave
+    ciscoPacketTracer8
     dmenu
     ffmpeg
     gcc
