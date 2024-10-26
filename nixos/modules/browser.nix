@@ -14,6 +14,7 @@
 				"[*.]github.com"
 				"[*.]google.com"
 				"[*.]youtube.com"
+				"[*.]chromeenterprise.google"
 			];
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
