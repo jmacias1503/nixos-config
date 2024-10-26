@@ -19,6 +19,8 @@ in
 		};
 		syntaxHighlighting.enable = true;
 	};
+
+	nixpkgs.config.allowUnfree = true;
 	home.packages  = with pkgs; [
 		bluedevil
 		brave
