@@ -24,6 +24,7 @@
 				"[*.]github.com"
 				"[*.]google.com"
 				"[*.]youtube.com"
+				"[*.]meet.jit.si"
 			];
 		};
 	};
