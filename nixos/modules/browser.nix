@@ -25,6 +25,7 @@
 				"[*.]google.com"
 				"[*.]youtube.com"
 				"[*.]meet.jit.si"
+				"[*.]nixos.org"
 			];
 		};
 	};
