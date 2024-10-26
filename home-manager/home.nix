@@ -20,12 +20,18 @@ in
 		syntaxHighlighting.enable = true;
 	};
 	home.packages  = with pkgs; [
+		bluedevil
 		brave
 		cmus
 		fastfetch
 		gimp
 		gnupg
-		lf
+		inkscape
+		libreoffice
+		qrcp
+		signal-desktop
+		whatsapp-for-linux
+		zoom-us
 		zsh
 	];
 	home.sessionVariables = {

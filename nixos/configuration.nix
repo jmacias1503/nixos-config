@@ -100,9 +100,7 @@ in
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     acpi
-    bluedevil
     blueman
-    ciscoPacketTracer8
     dmenu
     ffmpeg
     gcc
@@ -113,8 +111,7 @@ in
     home-manager
     htop
     imv
-    inkscape
-    libreoffice
+    lf
     mpv
     ncpamixer
     neovim
@@ -123,7 +120,6 @@ in
     postgresql
     pulseaudio
     python3
-    signal-desktop
     scrot
     customSt
     (texlive.combine {
@@ -132,17 +128,14 @@ in
 	pgf
 	;
     })
-    qrcp
     tmux
     unrar
     unzip
     wget
-    whatsapp-for-linux
     xclip
     xwallpaper
     zathura
     zip
-    zoom-us
     zsh
   ];
 
