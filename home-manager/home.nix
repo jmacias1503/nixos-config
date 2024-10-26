@@ -4,13 +4,11 @@ in
 {
 	imports = [
 		./modules/shell.nix
-		./modules/browser.nix
 	];
 
 	nixpkgs.config.allowUnfree = true;
 	home.packages  = with pkgs; [
 		bluedevil
-		brave
 		cmus
 		fastfetch
 		gimp

@@ -15,6 +15,7 @@ in
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/graphical-environment.nix
+      ./modules/browser.nix
       inputs.home-manager.nixosModules.home-manager
     ];
 
@@ -93,6 +94,7 @@ in
   environment.systemPackages = with pkgs; [
     acpi
     blueman
+    brave
     dmenu
     ffmpeg
     gcc
