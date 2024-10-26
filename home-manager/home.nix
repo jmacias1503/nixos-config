@@ -20,6 +20,7 @@ in
 		syntaxHighlighting.enable = true;
 	};
 	home.packages  = with pkgs; [
+		brave
 		cmus
 		fastfetch
 		gimp

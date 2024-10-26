@@ -102,7 +102,6 @@ in
     acpi
     bluedevil
     blueman
-    brave
     ciscoPacketTracer8
     dmenu
     ffmpeg
