@@ -109,7 +109,6 @@ in
     gimp
     git
     gnumake
-    go
     home-manager
     htop
     imv
@@ -117,11 +116,9 @@ in
     mpv
     ncpamixer
     neovim
-    nodejs
     pass
     postgresql
     pulseaudio
-    python3
     scrot
     customSt
     (texlive.combine {
