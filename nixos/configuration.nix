@@ -41,6 +41,14 @@ in
 	};
   };
 
+  # Cron jobs
+  services.cron = {
+  	enable = true;
+	systemCronJobs = [
+		"0 10 * * * root nix-collect-garbage -d"
+	];
+  };
+
   # Printing
   services.printing.enable = true;
 
