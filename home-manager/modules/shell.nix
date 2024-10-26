@@ -15,7 +15,7 @@
 		shellAliases = {
 			v = "nvim";
 			sb = "cd ~/Documents/second-brain";
-			chambauaq = "nix develop ~/Shells/chambauaq -c $SHELL"
+			chambauaq = "nix develop ~/Shells/chambauaq -c $SHELL";
 		};
 		syntaxHighlighting.enable = true;
 	};
