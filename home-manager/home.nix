@@ -4,6 +4,7 @@ in
 {
 	imports = [
 		./modules/shell.nix
+		./modules/browser.nix
 	];
 
 	nixpkgs.config.allowUnfree = true;
