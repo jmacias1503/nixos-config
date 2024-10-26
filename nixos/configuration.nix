@@ -31,15 +31,6 @@ in
   hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
 
-  # WM
-  services.xserver.enable = true;
-  services.xserver.windowManager.dwm = {
-          enable = true;
-          package = pkgs.dwm.overrideAttrs {
-          src = ./packages/self-built/dwm;
-          };
-  };
-
   # home-manager
   home-manager =  {
   	extraSpecialArgs = { inherit inputs outputs; };
