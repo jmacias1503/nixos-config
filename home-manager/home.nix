@@ -15,6 +15,12 @@
 		libreoffice
 		qrcp
 		signal-desktop
+    (texlive.combine {
+    	inherit (pkgs.texlive)
+	scheme-full
+	pgf
+	;
+    })
 		whatsapp-for-linux
 		zoom-us
 		zsh

@@ -118,12 +118,6 @@ in
     pulseaudio
     scrot
     customSt
-    (texlive.combine {
-    	inherit (pkgs.texlive)
-	scheme-full
-	pgf
-	;
-    })
     tmux
     unrar
     unzip
