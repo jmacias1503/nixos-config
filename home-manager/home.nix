@@ -4,6 +4,7 @@ in
 {
 	imports = [
 		./modules/shell.nix
+		./modules/nixvim.nix
 	];
 
 	nixpkgs.config.allowUnfree = true;
