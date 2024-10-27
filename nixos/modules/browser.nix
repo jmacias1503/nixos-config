@@ -28,6 +28,7 @@
 				"[*.]youtube.com"
 				"[*.]meet.jit.si"
 				"[*.]nixos.org"
+				"[*.]nix-community[*.]"
 				"[*.]chromeenterprise.google"
 			];
 		};
