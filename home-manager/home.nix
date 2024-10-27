@@ -37,6 +37,9 @@
   home.sessionVariables = {
     EDITOR = "nvim";
   };
+  programs.gpg = {
+    enable = true;
+  };
 #users.users.jmacias8075.shell = pkgs.zsh;
   home.username = "jmacias8075";
   home.stateVersion = "24.05";
