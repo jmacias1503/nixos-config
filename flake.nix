@@ -1,5 +1,5 @@
 {
-  description = "Flake for jmacias8075 system";
+  description = "NixOS of jmacias8075";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
