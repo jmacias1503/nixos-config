@@ -16,7 +16,7 @@ in
       ./hardware-configuration.nix
       ./modules/graphical-environment.nix
       ./modules/browser.nix
-      inputs.home-manager.nixosModules.home-manager
+      inputs.home-manager.nixosModules.default
     ];
 
 
