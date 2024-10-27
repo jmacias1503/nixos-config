@@ -9,24 +9,16 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, nixvim, ... } @ inputs:
+  outputs = { self, nixpkgs, ... } @ inputs:
   let
   	system = "x86_64-linux";
-
-	pkgs = import nixpkgs {
-		inherit system;
-
-		config = {
-			allowUnfree = true;
-		};
-	};
-	inherit (self) outputs;
+	pkgs = nixpkgs.legacyPackages.${system};
   in
   {
 
   	nixosConfigurations = {
 		nixos = nixpkgs.lib.nixosSystem {
-			specialArgs = { inherit system inputs outputs; };
+			extraSpecialArgs = { inherit inputs; };
 
 			modules = [
 				./nixos/configuration.nix
