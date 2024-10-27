@@ -105,7 +105,6 @@ in
     brave
     dmenu
     ffmpeg
-    gcc
     gimp
     git
     gnumake
