@@ -3,7 +3,6 @@
 	imports = [
 		./modules/shell.nix
 		./modules/nixvim.nix
-		inputs.nixvim.homeManagerModules.nixvim
 	];
 
 	nixpkgs.config.allowUnfree = true;
