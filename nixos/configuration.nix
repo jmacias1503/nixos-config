@@ -104,14 +104,10 @@ in
     brave
     dmenu
     ffmpeg
-    gimp
     git
     gnumake
     htop
-    imv
     lf
-    mpv
-    ncpamixer
     neovim
     pass
     postgresql
@@ -124,7 +120,6 @@ in
     wget
     xclip
     xwallpaper
-    zathura
     zip
     zsh
   ];

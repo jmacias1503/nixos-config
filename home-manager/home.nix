@@ -11,8 +11,11 @@
 		fastfetch
 		gimp
 		gnupg
+    		imv
 		inkscape
 		libreoffice
+    mpv
+    ncpamixer
 		qrcp
 		signal-desktop
     (texlive.combine {
@@ -22,6 +25,7 @@
 	;
     })
 		whatsapp-for-linux
+    zathura
 		zoom-us
 		zsh
 	];
