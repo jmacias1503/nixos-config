@@ -5,6 +5,7 @@
 		enable = true;
 		extensions = [
 			"inmopeiepgfljkpkidclfgbgbmfcennb"
+			"dlnejlppicbjfcfcedcflplfjajinajd"
 		];
 		extraOpts = {
 			"CookiesAllowedForUrls" = [
