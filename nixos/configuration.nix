@@ -81,10 +81,11 @@ in
   users.users.jmacias8075.shell = pkgs.zsh;
 
   home-manager = {
-  	extraSpecialArgs = { inherit inputs; };
-	users = {
-		"jmacias8075" = import ./../home-manager/home.nix;
-	};
+    backupFileExtension = "backup";
+    extraSpecialArgs = { inherit inputs; };
+    users = {
+      "jmacias8075" = import ./../home-manager/home.nix;
+    };
   };
 
   # Enable automatic login for the user.
