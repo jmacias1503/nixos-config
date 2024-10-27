@@ -33,14 +33,6 @@ in
   hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
 
-  # home-manager
-  home-manager =  {
-  	extraSpecialArgs = { inherit inputs outputs; };
-	users = {
-		jmacias8075 = import ../home-manager/home.nix;
-	};
-  };
-
   # Cron jobs
   services.cron = {
   	enable = true;
@@ -88,6 +80,13 @@ in
 
   users.users.jmacias8075.shell = pkgs.zsh;
 
+  home-manager = {
+  	extraSpecialArgs = { inherit inputs; };
+	users = {
+		"jmacias8075" = import ./../home-manager/home.nix;
+	};
+  };
+
   # Enable automatic login for the user.
   services.getty.autologinUser = "jmacias8075";
 
@@ -108,7 +107,6 @@ in
     gimp
     git
     gnumake
-    home-manager
     htop
     imv
     lf
