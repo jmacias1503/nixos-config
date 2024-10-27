@@ -2,30 +2,29 @@
 {
   imports = [
     ./modules/shell.nix
-      ./modules/nixvim.nix
+    ./modules/nixvim.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
   home.packages  = with pkgs; [
     bluedevil
-      cmus
-      fastfetch
-      gimp
-      gnupg
-      imv
-      inkscape
-      libreoffice
-      mpv
-      ncpamixer
-      qrcp
-      signal-desktop
-      (texlive.combine {
-       inherit (pkgs.texlive)
-       scheme-full
-       pgf
-       ;
-       })
-  whatsapp-for-linux
+    cmus
+    fastfetch
+    gimp
+    imv
+    inkscape
+    libreoffice
+    mpv
+    ncpamixer
+    qrcp
+    signal-desktop
+    (texlive.combine {
+      inherit (pkgs.texlive)
+      scheme-full
+      pgf
+      ;
+    })
+    whatsapp-for-linux
     zathura
     zoom-us
     zsh
