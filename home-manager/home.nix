@@ -2,6 +2,7 @@
 {
 	imports = [
 		./modules/shell.nix
+		./modules/nixvim.nix
 		inputs.nixvim.homeManagerModules.nixvim
 	];
 
@@ -37,9 +38,6 @@
 	};
 	home.sessionVariables = {
 		EDITOR = "nvim";
-	};
-	programs.nixvim = {
-	enable = true;
 	};
 	#users.users.jmacias8075.shell = pkgs.zsh;
 	home.username = "jmacias8075";
