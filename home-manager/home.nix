@@ -2,6 +2,7 @@
 {
 	imports = [
 		./modules/shell.nix
+		inputs.nixvim.homeManagerModules.nixvim
 	];
 
 	nixpkgs.config.allowUnfree = true;
@@ -36,6 +37,9 @@
 	};
 	home.sessionVariables = {
 		EDITOR = "nvim";
+	};
+	programs.nixvim = {
+	enable = true;
 	};
 	#users.users.jmacias8075.shell = pkgs.zsh;
 	home.username = "jmacias8075";
