@@ -1,6 +1,4 @@
-{config, pkgs, ...}:
-let
-in
+{config, pkgs, inputs, outputs, ...}:
 {
 	imports = [
 		./modules/shell.nix
