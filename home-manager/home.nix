@@ -25,6 +25,11 @@
 		zoom-us
 		zsh
 	];
+	programs.git = {
+		enable = true;
+		userName = "Alejandro jmacias8075";
+		userEmail = "alex.mac.fon@gmail.com";
+	};
 	home.sessionVariables = {
 		EDITOR = "nvim";
 	};
