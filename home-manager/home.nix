@@ -19,7 +19,6 @@
 		zoom-us
 		zsh
 	];
-	programs.nixvim.enable = true;
 	home.sessionVariables = {
 		EDITOR = "nvim";
 	};
