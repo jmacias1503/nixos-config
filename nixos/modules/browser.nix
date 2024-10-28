@@ -15,6 +15,7 @@
 				"[*.]dbdiagram.io"
 				"[*.]github.com"
 				"[*.]google.com"
+				"[*.]notion.so"
 				"[*.]youtube.com"
 				"[*.]chromeenterprise.google"
 			];
@@ -32,6 +33,7 @@
 				"[*.]meet.jit.si"
 				"[*.]nixos.org"
 				"[*.]nix-community[*.]"
+				"[*.]notion.so"
 				"[*.]chromeenterprise.google"
 			];
 		};
