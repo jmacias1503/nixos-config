@@ -12,22 +12,23 @@
       relativenumber = true;
       shiftwidth = 2;
     };
-    plugins.lsp = {
-      enable = true;
-      servers = {
-	ts_ls.enable = true;
-	lua_ls.enable = true;
+    plugins = {
+      lsp = {
+	enable = true;
+	servers = {
+	  ts_ls.enable = true;
+	  lua_ls.enable = true;
+	};
+      };
+      cmp = {
+	enable = true;
+	autoEnableSources = true;
+	settings.sources = [
+	{ name = "nvim_lsp"; }
+	{ name = "path"; }
+	];
       };
     };
 
-    plugins.cmp = {
-      enable = true;
-      autoEnableSources = true;
-      settings.sources = [
-	{ name = "nvim_lsp"; }
-	{ name = "path"; }
-	{ name = "buffer"; }
-      ];
-    };
   };
 }
