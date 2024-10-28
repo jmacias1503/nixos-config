@@ -13,17 +13,6 @@
       shiftwidth = 2;
     };
     plugins = {
-      lsp = {
-	enable = true;
-	servers = {
-	  ts_ls.enable = true;
-	  lua_ls.enable = true;
-	  nixd.enable = true;
-	};
-      };
-      trouble = {
-	enable = true;
-      };
       cmp = {
 	enable = true;
 	autoEnableSources = true;
@@ -32,7 +21,18 @@
 	{ name = "path"; }
 	];
       };
+      lsp = {
+	enable = true;
+	servers = {
+	  ts_ls.enable = true;
+	  lua_ls.enable = true;
+	  nixd.enable = true;
+	};
+      };
       mini.enable = true;
+      trouble = {
+	enable = true;
+      };
       vimtex = {
 	enable = true;
 	settings = {
