@@ -31,7 +31,7 @@ in
 
 # Sops
   sops.defaultSopsformat = "json";
-  sops.defaultSopsFil = ./../secrets/secrets.json;
+  sops.defaultSopsFile = ./../secrets/secrets.json;
   sops.age.keyFile = "/home/jmacias8075/.config/sops/age/keys.txt";
 
 # Bluetooth
