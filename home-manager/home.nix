@@ -36,6 +36,7 @@
   };
   home.sessionVariables = {
     EDITOR = "nvim";
+    BROWSER = "brave";
   };
   programs.gpg = {
     enable = true;
