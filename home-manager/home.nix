@@ -3,6 +3,7 @@
   imports = [
     ./modules/shell.nix
     ./modules/nixvim.nix
+    inputs.sops-nix.homeManagerModules.sops
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -28,7 +29,10 @@
     zathura
     zoom-us
     zsh
-    ];
+  ];
+  sops.defaultSopsFormat = "json";
+  sops.defaultSopsFile = ./../secrets/secrets.json;
+  sops.age.keyFile = "/home/jmacias8075/.config/sops/age/keys.txt";
   programs.git = {
     enable = true;
     userName = "Alejandro jmacias8075";
