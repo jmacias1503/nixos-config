@@ -31,6 +31,7 @@
 				"[*.]github.com"
 				"[*.]google.com"
 				"[*.]meet.jit.si"
+				"[*.]nestjs.com"
 				"[*.]nixos.org"
 				"[*.]nix-community[*.]"
 				"[*.]notion.so"
