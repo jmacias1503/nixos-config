@@ -80,7 +80,6 @@ in
     isNormalUser = true;
     description = "Alejandro";
     extraGroups = [ "networkmanager" "wheel" "audio" ];
-    packages = with pkgs; [];
   };
   users.users.jmacias8075.ignoreShellProgramCheck = true;
 
