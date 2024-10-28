@@ -41,6 +41,7 @@
   home.sessionVariables = {
     EDITOR = "nvim";
     BROWSER = "brave";
+    CHAMBAUAQ_PATH = "~/Documents/projects/bolsa_de_trabajo_back/"
   };
   programs.gpg = {
     enable = true;
