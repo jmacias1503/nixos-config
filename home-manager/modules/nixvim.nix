@@ -26,7 +26,10 @@
 	servers = {
 	  gopls.enable = true;
 	  nixd.enable = true;
-	  prismals.enable = true;
+	  prismals = {
+	    enable = true;
+	    package = null;
+	  };
 	  ts_ls.enable = true;
 	};
       };
