@@ -28,6 +28,12 @@
 	{ name = "path"; }
 	];
       };
+      vimtex = {
+	enable = true;
+	settings = {
+	  view_method = "zathura";
+	};
+      };
     };
 
   };
