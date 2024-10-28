@@ -11,13 +11,13 @@
 			"CookiesAllowedForUrls" = [
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
+				"[*.]chromeenterprise.google"
 				"[*.]coursera.org"
 				"[*.]dbdiagram.io"
 				"[*.]github.com"
 				"[*.]google.com"
 				"[*.]notion.so"
 				"[*.]youtube.com"
-				"[*.]chromeenterprise.google"
 			];
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
@@ -25,16 +25,16 @@
 				"[*.]app.diagrams.net"
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
+				"[*.]chromeenterprise.google"
 				"[*.]coursera.org"
 				"[*.]dbdiagram.io"
 				"[*.]github.com"
 				"[*.]google.com"
-				"[*.]youtube.com"
 				"[*.]meet.jit.si"
 				"[*.]nixos.org"
 				"[*.]nix-community[*.]"
 				"[*.]notion.so"
-				"[*.]chromeenterprise.google"
+				"[*.]youtube.com"
 			];
 		};
 	};
