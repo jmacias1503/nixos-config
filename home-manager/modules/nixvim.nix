@@ -31,9 +31,7 @@
       };
       mini.enable = true;
       telescope.enable = true;
-      trouble = {
-	enable = true;
-      };
+      trouble.enable = true;
       vimtex = {
 	enable = true;
 	settings = {
