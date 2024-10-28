@@ -17,6 +17,7 @@
 				"[*.]github.com"
 				"[*.]google.com"
 				"[*.]notion.so"
+				"[*.]prisma.io"
 				"[*.]youtube.com"
 			];
 			"DefaultCookiesSetting" = 2;
