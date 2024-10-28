@@ -30,6 +30,7 @@
 	};
       };
       mini.enable = true;
+      telescope.enable = true;
       trouble = {
 	enable = true;
       };
