@@ -24,9 +24,9 @@
       lsp = {
 	enable = true;
 	servers = {
-	  ts_ls.enable = true;
 	  lua_ls.enable = true;
 	  nixd.enable = true;
+	  ts_ls.enable = true;
 	};
       };
       mini.enable = true;
