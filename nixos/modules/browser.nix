@@ -11,6 +11,7 @@
 			"CookiesAllowedForUrls" = [
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
+				"[*.]coursera.org"
 				"[*.]dbdiagram.io"
 				"[*.]github.com"
 				"[*.]google.com"
@@ -23,6 +24,7 @@
 				"[*.]app.diagrams.net"
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
+				"[*.]coursera.org"
 				"[*.]dbdiagram.io"
 				"[*.]github.com"
 				"[*.]google.com"
