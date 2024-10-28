@@ -20,11 +20,11 @@
 	  lua_ls.enable = true;
 	  nixd.enable = true;
 	};
-	trouble = {
-	  enable = true;
-	  settings = {
-	    use_diagnostic_signs = true;
-	  };
+      };
+      trouble = {
+	enable = true;
+	settings = {
+	  use_diagnostic_signs = true;
 	};
       };
       cmp = {
