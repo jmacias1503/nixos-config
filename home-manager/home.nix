@@ -18,6 +18,7 @@
     ncpamixer
     qrcp
     signal-desktop
+    sops
     (texlive.combine {
       inherit (pkgs.texlive)
       scheme-full
