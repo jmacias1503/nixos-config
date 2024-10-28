@@ -35,12 +35,14 @@
 	{ name = "path"; }
 	];
       };
+      mini.enable = true;
       vimtex = {
 	enable = true;
 	settings = {
 	  view_method = "zathura";
 	};
       };
+      web-devicons.enable = true;
     };
 
   };
