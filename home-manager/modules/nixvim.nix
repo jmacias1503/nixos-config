@@ -24,6 +24,7 @@
       lsp = {
 	enable = true;
 	servers = {
+	  gopls.enable = true;
 	  lua_ls.enable = true;
 	  nixd.enable = true;
 	  ts_ls.enable = true;
