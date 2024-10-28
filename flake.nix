@@ -14,10 +14,8 @@
     sops-nix.url = "github:Mic92/sops-nix";
   };
 
-  outputs = { self, nixpkgs, ... } @ inputs:
+  outputs = {nixpkgs, ... } @ inputs:
   let
-    system = "x86_64-linux";
-  pkgs = nixpkgs.legacyPackages.${system};
   in
   {
     nixosConfigurations.default = nixpkgs.lib.nixosSystem {
