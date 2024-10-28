@@ -20,6 +20,7 @@
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
 			"JavaScriptAllowedForUrls" = [
+				"[*.]app.diagrams.net"
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
 				"[*.]dbdiagram.io"
