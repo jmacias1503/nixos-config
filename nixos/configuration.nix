@@ -30,7 +30,7 @@ in
   hardware.pulseaudio.enable = true;
 
 # Sops
-  sops.defaultSopsformat = "json";
+  sops.defaultSopsFormat = "json";
   sops.defaultSopsFile = ./../secrets/secrets.json;
   sops.age.keyFile = "/home/jmacias8075/.config/sops/age/keys.txt";
 
