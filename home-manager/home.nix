@@ -17,6 +17,7 @@
     mpv
     ncpamixer
     qrcp
+    rpi-imager
     signal-desktop
     sops
     (texlive.combine {
