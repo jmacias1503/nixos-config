@@ -25,6 +25,7 @@
       pgf
       ;
     })
+    ttyper
     whatsapp-for-linux
     zathura
     zoom-us
