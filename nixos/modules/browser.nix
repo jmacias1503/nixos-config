@@ -18,6 +18,7 @@
 				"[*.]google.com"
 				"[*.]notion.so"
 				"[*.]prisma.io"
+				"[*.]uaqedvirtual.uaq.mx"
 				"[*.]youtube.com"
 			];
 			"DefaultCookiesSetting" = 2;
@@ -38,6 +39,7 @@
 				"[*.]notion.so"
 				"[*.]openstreetmap.org"
 				"[*.]prisma.io"
+				"[*.]uaqedvirtual.uaq.mx"
 				"[*.]youtube.com"
 			];
 		};
