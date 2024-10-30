@@ -36,6 +36,7 @@
 				"[*.]nixos.org"
 				"[*.]nix-community[*.]"
 				"[*.]notion.so"
+				"[*.]openstreetmap.org"
 				"[*.]prisma.io"
 				"[*.]youtube.com"
 			];
