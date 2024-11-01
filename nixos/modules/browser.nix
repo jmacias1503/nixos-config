@@ -19,6 +19,7 @@
 				"[*.]google.com"
 				"[*.]notion.so"
 				"[*.]prisma.io"
+				"[*.]slack.com"
 				"[*.]uaqedvirtual.uaq.mx"
 				"[*.]youtube.com"
 			];
@@ -41,6 +42,7 @@
 				"[*.]notion.so"
 				"[*.]openstreetmap.org"
 				"[*.]prisma.io"
+				"[*.]slack.com"
 				"[*.]uaqedvirtual.uaq.mx"
 				"[*.]youtube.com"
 			];
