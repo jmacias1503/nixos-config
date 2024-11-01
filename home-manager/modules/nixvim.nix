@@ -10,6 +10,7 @@
     clipboard.register = "unnamedplus";
 
     opts = {
+      mouse = "";
       number = true;
       relativenumber = true;
       shiftwidth = 2;
