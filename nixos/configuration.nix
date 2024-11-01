@@ -17,7 +17,6 @@ in
     ./modules/graphical-environment.nix
     ./modules/browser.nix
     inputs.home-manager.nixosModules.default
-    inputs.sops-nix.nixosModules.sops
     ];
 
 
@@ -28,11 +27,6 @@ in
 # Audio
   services.pipewire.enable = false;
   hardware.pulseaudio.enable = true;
-
-# Sops
-  sops.defaultSopsFormat = "json";
-  sops.defaultSopsFile = ./../secrets/secrets.json;
-  sops.age.keyFile = "/home/jmacias8075/.config/sops/age/keys.txt";
 
 # Bluetooth
   hardware.bluetooth.enable = true;
