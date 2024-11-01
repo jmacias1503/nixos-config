@@ -31,6 +31,19 @@
       };
       mini.enable = true;
       telescope.enable = true;
+      treesitter = {
+	enable = true;
+
+	settings = {
+	  auto_install = false;
+	  ensure_installed = [
+	    "json"
+	    "nix"
+	    "prisma"
+	    "typescript"
+	  ];
+	};
+      };
       trouble.enable = true;
       vimtex = {
 	enable = true;
