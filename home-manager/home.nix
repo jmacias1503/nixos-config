@@ -19,6 +19,7 @@
     qrcp
     rpi-imager
     signal-desktop
+    slack
     sops
     (texlive.combine {
       inherit (pkgs.texlive)
