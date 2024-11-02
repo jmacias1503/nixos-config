@@ -26,6 +26,7 @@
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
 			"JavaScriptAllowedForUrls" = [
+				"192.168.10.1"
 				"[*.]app.diagrams.net"
 				"[*.]canva.com"
 				"[*.]chatgpt.com"
