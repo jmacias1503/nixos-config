@@ -8,7 +8,6 @@
     defaultEditor = true;
 
     clipboard.register = "unnamedplus";
-
     opts = {
       mouse = "";
       number = true;
