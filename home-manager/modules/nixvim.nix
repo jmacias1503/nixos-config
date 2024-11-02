@@ -7,7 +7,7 @@
     enable = true;
     defaultEditor = true;
     clipboard.register = "unnamedplus";
-    colorscheme = {
+    colorschemes = {
       dracula = {
 	enable = true;
       };
