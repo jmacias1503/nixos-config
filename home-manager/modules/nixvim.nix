@@ -6,8 +6,12 @@
   programs.nixvim = {
     enable = true;
     defaultEditor = true;
-
     clipboard.register = "unnamedplus";
+    colorscheme = {
+      dracula = {
+	enable = true;
+      };
+    };
     opts = {
       mouse = "";
       number = true;
