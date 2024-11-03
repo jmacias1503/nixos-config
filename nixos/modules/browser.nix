@@ -21,7 +21,6 @@
 				"[*.]prisma.io"
 				"[*.]slack.com"
 				"[*.]uaqedvirtual.uaq.mx"
-				"[*.]youtube.com"
 			];
 			"DefaultCookiesSetting" = 2;
 			"DefaultJavaScriptSetting" = 2;
@@ -45,7 +44,6 @@
 				"[*.]prisma.io"
 				"[*.]slack.com"
 				"[*.]uaqedvirtual.uaq.mx"
-				"[*.]youtube.com"
 			];
 		};
 	};
