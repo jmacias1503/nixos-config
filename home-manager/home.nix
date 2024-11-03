@@ -49,6 +49,9 @@
   programs.gpg = {
     enable = true;
   };
+  programs.cmus = {
+    theme = "dracula";
+  };
 #users.users.jmacias8075.shell = pkgs.zsh;
   home.username = "jmacias8075";
   home.stateVersion = "24.05";
