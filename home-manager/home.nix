@@ -29,6 +29,7 @@
     })
     ttyper
     whatsapp-for-linux
+    ytfzf
     zathura
     zoom-us
     zsh
