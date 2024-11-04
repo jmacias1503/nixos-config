@@ -55,6 +55,7 @@
 	"https://notion.so"
 	"https://searx.be"
 	"uaqedvirtual.com"
+	"https://wikipedia.org"
       ];
       "URLBlocklist" = [
 	"*"
