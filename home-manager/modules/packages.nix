@@ -12,10 +12,10 @@
     mpv
     ncpamixer
     qrcp
+    qutebrowser
     rpi-imager
     signal-desktop
     slack
-    surf
     (texlive.combine {
       inherit (pkgs.texlive)
       scheme-full
