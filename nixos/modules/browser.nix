@@ -51,12 +51,8 @@
 	"https://chromeenterprise.google"
 	"https://classroom.google.com"
 	"https://nestjs.com"
-	"https://nixos.org"
-	"https://nixos.wiki"
 	"https://notion.so"
-	"https://searx.be"
 	"uaqedvirtual.com"
-	"https://wikipedia.org"
       ];
       "URLBlocklist" = [
 	"*"
