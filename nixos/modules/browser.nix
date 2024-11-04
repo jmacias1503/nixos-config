@@ -54,6 +54,7 @@
 	"https://classroom.google.com"
 	"https://dbdiagram.io"
 	"https://excalidraw.com"
+	"https://github.com"
 	"https://nestjs.com"
 	"https://notion.so"
 	"uaqedvirtual.com"
