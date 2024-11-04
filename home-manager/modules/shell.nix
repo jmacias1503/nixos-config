@@ -16,6 +16,7 @@
       v = "nvim";
       sb = "cd ~/Documents/second-brain";
       chambauaq = "nix develop ~/Shells#chambauaq";
+      osbuild = "sudo nixos-rebuild switch --flake $OSFLAKE/#default --show-trace";
     };
     syntaxHighlighting.enable = true;
   };
