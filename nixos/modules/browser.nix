@@ -23,6 +23,7 @@
 	"[*.]uaqedvirtual.uaq.mx"
       ];
       "DefaultCookiesSetting" = 2;
+      "DefaultClipboardSetting" = 2;
       "DefaultJavaScriptSetting" = 2;
       "JavaScriptAllowedForUrls" = [
 	"192.168.10.1"
