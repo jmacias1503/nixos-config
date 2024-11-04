@@ -63,7 +63,6 @@
 	"uaqedvirtual.com"
       ];
       "URLBlocklist" = [
-	"*"
       ];
     };
   };
