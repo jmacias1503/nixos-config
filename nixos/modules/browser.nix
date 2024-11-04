@@ -45,9 +45,6 @@
 	"[*.]slack.com"
 	"[*.]uaqedvirtual.uaq.mx"
       ];
-      "URLBlocklist" = [
-	"*"
-      ];
       "URLAllowlist" = [
 	"[*.]app.diagrams.net"
 	"[*.]canva.com"
@@ -67,6 +64,9 @@
 	"[*.]prisma.io"
 	"[*.]slack.com"
 	"[*.]uaqedvirtual.uaq.mx"
+      ];
+      "URLBlocklist" = [
+	"*"
       ];
     };
   };
