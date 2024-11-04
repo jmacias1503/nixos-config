@@ -50,6 +50,7 @@
 	"https://chatgpt.com"
 	"https://chromeenterprise.google"
 	"https://classroom.google.com"
+	"https://dbdiagram.io"
 	"https://nestjs.com"
 	"https://notion.so"
 	"uaqedvirtual.com"
