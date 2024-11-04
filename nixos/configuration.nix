@@ -110,6 +110,7 @@ in
     lf
     neovim
     pass
+    postgresql
     pulseaudio
     scrot
     customSt
@@ -128,6 +129,17 @@ in
   ];
 
 # PostgreSQL
+
+  services.postgresql = {
+    enable = true;
+    ensureDatabases = [ "root" ];
+    enableTCPIP = true;
+    authentication = pkgs.lib.mkOverride 10 ''
+      host all all 127.0.0.1/32 trust
+      host all all ::1/128 trust
+      local all all trust
+      '';
+  };
 
   services.tlp = {
     enable = true;
