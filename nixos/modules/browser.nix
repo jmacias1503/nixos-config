@@ -47,6 +47,11 @@
       ];
       "URLAllowlist" = [
 	"https://chatgpt.com"
+	"https://chromeenterprise.google"
+	"https://nestjs.com"
+	"https://nixos.org"
+	"https://notion.so"
+	"https://searx.be"
       ];
       "URLBlocklist" = [
 	"*"
