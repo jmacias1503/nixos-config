@@ -9,6 +9,7 @@
     ];
     extraOpts = {
       "CookiesAllowedForUrls" = [
+	"[*.]atlassian.net"
 	"[*.]canva.com"
 	"[*.]chatgpt.com"
 	"[*.]chromeenterprise.google"
@@ -29,6 +30,7 @@
       "JavaScriptAllowedForUrls" = [
 	"192.168.10.1"
 	"[*.]app.diagrams.net"
+	"[*.]atlassian.net"
 	"[*.]canva.com"
 	"[*.]chatgpt.com"
 	"[*.]chromeenterprise.google"
@@ -55,6 +57,7 @@
 	"https://dbdiagram.io"
 	"https://excalidraw.com"
 	"https://github.com"
+	"https://ingrlinux.atlassian.net"
 	"https://nestjs.com"
 	"https://notion.so"
 	"uaqedvirtual.com"
