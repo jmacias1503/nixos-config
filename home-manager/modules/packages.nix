@@ -3,7 +3,6 @@
   nixpkgs.config.allowUnfree = true;
   home.packages  = with pkgs; [
     bluedevil
-    cmus
     fastfetch
     gimp
     imv
