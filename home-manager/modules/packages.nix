@@ -15,13 +15,6 @@
     rpi-imager
     signal-desktop
     slack
-    (texlive.combine {
-      inherit (pkgs.texlive)
-      enumitem
-      scheme-full
-      pgf
-      ;
-    })
     ttyper
     whatsapp-for-linux
     ytfzf
