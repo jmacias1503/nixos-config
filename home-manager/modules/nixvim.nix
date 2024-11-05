@@ -1,4 +1,4 @@
-{inputs, ...}:
+{inputs, pkgs, ...}:
 {
   imports = [
     inputs.nixvim.homeManagerModules.nixvim
@@ -73,6 +73,7 @@
 	settings = {
 	  view_method = "zathura";
 	};
+	texlivePackage = pkgs.texlive.scheme-full;
       };
       web-devicons.enable = true;
     };
