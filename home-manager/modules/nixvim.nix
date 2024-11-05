@@ -73,7 +73,7 @@
 	settings = {
 	  view_method = "zathura";
 	};
-	texlivePackage = pkgs.texlive.scheme-full;
+	texlivePackage = pkgs.texlive.combined.scheme-full;
       };
       web-devicons.enable = true;
     };
