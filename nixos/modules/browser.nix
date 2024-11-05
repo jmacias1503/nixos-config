@@ -22,7 +22,7 @@
 	"[*.]notion.so"
 	"[*.]prisma.io"
 	"[*.]slack.com"
-	"[*.]uaqedvirtual.uaq.mx"
+	"[*.]uaq.mx"
       ];
       "DefaultCookiesSetting" = 2;
       "DefaultClipboardSetting" = 2;
@@ -48,7 +48,7 @@
 	"[*.]openstreetmap.org"
 	"[*.]prisma.io"
 	"[*.]slack.com"
-	"[*.]uaqedvirtual.uaq.mx"
+	"[*.]uaq.mx"
       ];
       "URLAllowlist" = [
 	"https://chatgpt.com"
