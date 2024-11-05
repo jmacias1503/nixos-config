@@ -13,6 +13,7 @@
       };
     };
     opts = {
+      conceallevel = 2;
       mouse = "";
       number = true;
       relativenumber = true;
