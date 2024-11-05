@@ -17,6 +17,7 @@
     slack
     (texlive.combine {
       inherit (pkgs.texlive)
+      enumitem
       scheme-full
       pgf
       ;
