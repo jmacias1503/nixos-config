@@ -3,6 +3,7 @@
   nixpkgs.config.allowUnfree = true;
   home.packages  = with pkgs; [
     bluedevil
+    discord
     fastfetch
     gimp
     imv
