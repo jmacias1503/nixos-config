@@ -50,6 +50,7 @@
 	"[*.]nix-community[*.]"
 	"[*.]notion.so"
 	"[*.]openstreetmap.org"
+	"[*.]plane.so"
 	"[*.]prisma.io"
 	"[*.]slack.com"
 	"[*.]uaq.mx"
