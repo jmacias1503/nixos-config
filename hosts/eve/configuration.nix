@@ -14,10 +14,12 @@ in
   imports =
     [ # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./modules/graphical-environment.nix
-    ./modules/browser.nix
+    ../../nixosModules
     inputs.home-manager.nixosModules.default
-    ];
+  ];
+# Enabling modules
+  browser.enable = true;
+  graphical-environment.enable = true;
 
 
 # Bootloader.
@@ -99,7 +101,7 @@ in
     backupFileExtension = "backup";
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "jmacias8075" = import ./../home-manager/home.nix;
+      "jmacias8075" = import ./../../home-manager/home.nix;
     };
   };
 
@@ -137,7 +139,7 @@ in
     xwallpaper
     zip
     zsh
-    ];
+  ];
 
   fonts.packages = with pkgs; [
     nerdfonts
