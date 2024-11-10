@@ -1,9 +1,13 @@
 {pkgs, ...}:
+let
+  browse = import ./scripts/browse.nix { inherit pkgs; };
+in
 {
   nixpkgs.config.allowUnfree = true;
   home.packages  = with pkgs; [
     bluedevil
     discord
+    browse
     fastfetch
     gimp
     imv
