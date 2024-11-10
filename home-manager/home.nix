@@ -11,7 +11,7 @@
     EDITOR = "nvim";
     BROWSER = "brave";
     CHAMBAUAQ_PATH = "/home/jmacias8075/Documents/projects/bolsa_de_trabajo_back/";
-    OSFLAKE = "/home/jmacias8075/NixOS";
+    OSFLAKE = "$HOME/NixOS";
   };
 #users.users.jmacias8075.shell = pkgs.zsh;
   home.username = "jmacias8075";
