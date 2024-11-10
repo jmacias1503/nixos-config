@@ -68,6 +68,7 @@
 	"uaqedvirtual.com"
       ];
       "URLBlocklist" = [
+	"https://www.youtube.com"
       ];
     };
   };
