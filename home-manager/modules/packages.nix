@@ -13,7 +13,6 @@
     ncpamixer
     qrcp
     qutebrowser
-    rpi-imager
     signal-desktop
     slack
     ttyper
