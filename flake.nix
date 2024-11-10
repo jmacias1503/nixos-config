@@ -20,7 +20,7 @@
     nixosConfigurations.eve = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
       modules = [
-	./nixos/configuration.nix
+	./hosts/eve/configuration.nix
 	inputs.home-manager.nixosModules.default
       ];
     };
