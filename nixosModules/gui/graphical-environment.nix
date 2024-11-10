@@ -10,7 +10,7 @@
     services.xserver.windowManager.dwm = {
       enable = true;
       package = pkgs.dwm.overrideAttrs {
-        src = ./../hosts/eve/packages/self-built/dwm;
+        src = ./dwm;
       };
     };
   };
