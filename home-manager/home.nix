@@ -10,7 +10,7 @@
   home.sessionVariables = {
     EDITOR = "nvim";
     BROWSER = "brave";
-    CHAMBAUAQ_PATH = "/home/jmacias8075/Documents/projects/bolsa_de_trabajo_back/";
+    CHAMBAUAQ_PATH = "$HOME/Documents/projects/bolsa_de_trabajo_back/";
     OSFLAKE = "$HOME/NixOS";
   };
 #users.users.jmacias8075.shell = pkgs.zsh;
