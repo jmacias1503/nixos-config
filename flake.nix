@@ -17,7 +17,7 @@
   let
   in
   {
-    nixosConfigurations.default = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.eve = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
       modules = [
 	./nixos/configuration.nix
