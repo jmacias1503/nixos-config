@@ -1,4 +1,4 @@
-{pkgs}:
+{pkgs, ...}:
 let customSt = pkgs.st.overrideAttrs (old: {
     src = ./packages/self-built/st;
     });
