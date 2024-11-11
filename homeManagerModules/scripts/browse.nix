@@ -1,6 +1,6 @@
 {pkgs, ...}:
 
 pkgs.writeShellScriptBin "browse" ''
-  browsing_method=$(echo "ytfzf\nbrave" | ${pkgs.dmenu}/bin/dmenu)
+  browsing_method=$(printf "ytfzf\nbrave" | ${pkgs.dmenu}/bin/dmenu -p 'browser')
   prompt=$(${pkgs.dmenu}/bin/dmenu -p "prompt:")
 ''

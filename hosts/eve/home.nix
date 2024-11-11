@@ -1,10 +1,7 @@
 {...}:
 {
   imports = [
-    ./modules/shell.nix
-    ./modules/nixvim.nix
-    ./modules/programs-config.nix
-    ./modules/packages.nix
+    ./../../homeManagerModules
   ];
 
   home.sessionVariables = {
