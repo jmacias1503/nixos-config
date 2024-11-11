@@ -30,14 +30,6 @@
   hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
 
-# Cron jobs
-  services.cron = {
-    enable = true;
-    systemCronJobs = [
-      "0 10 * * * root nix-collect-garbage -d"
-    ];
-  };
-
 # PostgreSQL
   services.postgresql = {
     enable = true;
