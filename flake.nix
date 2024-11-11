@@ -21,7 +21,6 @@
       specialArgs = {inherit inputs;};
       modules = [
 	./hosts/eve/configuration.nix
-	inputs.home-manager.nixosModules.default
       ];
     };
   };
