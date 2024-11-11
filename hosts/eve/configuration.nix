@@ -67,12 +67,17 @@
   users.users.jmacias8075.ignoreShellProgramCheck = true;
 
   users.users.jmacias8075.shell = pkgs.zsh;
+  users.users.guest = {
+    isNormalUser = true;
+    description = "Guest User";
+    extraGroups = [ "networkmanager" "audio" ];
+  };
 
   home-manager = {
     backupFileExtension = "backup";
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "jmacias8075" = import ./home.nix;
+      "jmacias8075" = import ./home-manager/jmacias8075/home.nix;
     };
   };
 

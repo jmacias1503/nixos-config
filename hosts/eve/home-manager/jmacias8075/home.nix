@@ -1,7 +1,7 @@
 {...}:
 {
   imports = [
-    ./../../homeManagerModules
+    ./../../../../homeManagerModules
   ];
 
   home.sessionVariables = {
