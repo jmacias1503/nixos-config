@@ -1,7 +1,7 @@
 {pkgs, ...}:
 let
   customSt = pkgs.st.overrideAttrs (old: {
-    src = ./gui/st;
+    src = ./st;
     });
 in
 {
