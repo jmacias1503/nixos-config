@@ -4,11 +4,6 @@
 
 { pkgs, inputs, ... }:
 
-let customSt = pkgs.st.overrideAttrs (old: {
-    src = ./packages/self-built/st;
-    });
-
-in
 
 {
   imports =
@@ -109,37 +104,12 @@ in
   services.getty.autologinUser = "jmacias8075";
 
 # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
 
 # Custom st source
 
 
 # List packages installed in system profile. To search, run:
 # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    acpi
-    blueman
-    brave
-    dmenu
-    ffmpeg
-    git
-    gnumake
-    htop
-    lf
-    neovim
-    pass
-    pulseaudio
-    scrot
-    customSt
-    tmux
-    unrar
-    unzip
-    wget
-    xclip
-    xwallpaper
-    zip
-    zsh
-  ];
 
   fonts.packages = with pkgs; [
     nerdfonts
