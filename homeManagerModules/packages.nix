@@ -1,5 +1,6 @@
 {pkgs, ...}:
 let
+  web-browser = pkgs.brave;
   browse = import ./scripts/browse.nix { inherit pkgs; };
 in
 {
@@ -20,6 +21,7 @@ in
     signal-desktop
     slack
     ttyper
+    web-browser
     whatsapp-for-linux
     ytfzf
     zoom-us
