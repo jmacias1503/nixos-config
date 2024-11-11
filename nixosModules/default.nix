@@ -1,6 +1,7 @@
-{pkgs, inputs, ... }:
+{ ... }:
 {
   imports = [
     ./gui
+    ./packages.nix
   ];
 }
