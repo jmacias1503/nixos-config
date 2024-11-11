@@ -2,7 +2,7 @@
 {
   imports = [
     ./gui
-    ./packages.nix
+    ./packages
     ./services
   ];
 }
