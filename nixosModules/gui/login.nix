@@ -1,7 +1,7 @@
-{...}:
+{pkgs, ...}:
 {
   services.displayManager.sddm = {
     enable = true;
-    theme = "Sweet sddm";
+    theme = "${import ./sddm-theme.nix {inherit pkgs; }}";
   };
 }
