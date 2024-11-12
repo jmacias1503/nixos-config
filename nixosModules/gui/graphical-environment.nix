@@ -6,11 +6,18 @@
   };
 
   config = lib.mkIf config.graphical-environment.enable {
-    services.xserver.enable = true;
-    services.xserver.windowManager.dwm = {
+    services.xserver = {
       enable = true;
-      package = pkgs.dwm.overrideAttrs {
-        src = ./dwm;
+      windowManager = {
+	dwm = {
+	  enable = true;
+	  package = pkgs.dwm.overrideAttrs {
+	    src = ./dwm;
+	  };
+	};
+      };
+      desktopManager = {
+	xfce.enable = true;
       };
     };
   };
