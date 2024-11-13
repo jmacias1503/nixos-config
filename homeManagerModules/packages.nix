@@ -17,6 +17,7 @@ in
     mpv
     ncpamixer
     obsidian
+    pomodoro
     qrcp
     qutebrowser
     signal-desktop
