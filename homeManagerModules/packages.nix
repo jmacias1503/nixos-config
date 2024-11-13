@@ -16,6 +16,7 @@ in
     libreoffice
     mpv
     ncpamixer
+    obsidian
     qrcp
     qutebrowser
     signal-desktop
