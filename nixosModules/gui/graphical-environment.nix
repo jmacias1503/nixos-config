@@ -21,8 +21,8 @@
 	  xfce.enable = true;
 	};
       };
-      upower.enable = lib.mkDefault true;
       dwm-status = {
+	services.upower.enable = lib.mkDefault true;
 	enable = true;
 	order = ["audio"];
       };
