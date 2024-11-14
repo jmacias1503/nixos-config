@@ -23,7 +23,7 @@
       };
       dwm-status = {
 	enable = true;
-	order = ["battery"];
+	order = ["time" "audio" "battery"];
       };
     };
   };
