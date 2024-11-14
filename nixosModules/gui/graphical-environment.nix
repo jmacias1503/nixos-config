@@ -21,9 +21,9 @@
 	  xfce.enable = true;
 	};
       };
-      dwm-status = lib.mkDefault 1000 {
+      dwm-status = {
 	enable = true;
-	order = ["audio"];
+	order = lib.mkDefault ["audio"];
       };
     };
   };
