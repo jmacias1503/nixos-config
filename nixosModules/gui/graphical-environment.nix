@@ -21,6 +21,9 @@
 	  xfce.enable = true;
 	};
       };
+      dwm-status = {
+	enable = true;
+      };
     };
   };
 }
