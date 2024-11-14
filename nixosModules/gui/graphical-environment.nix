@@ -23,6 +23,7 @@
       };
       dwm-status = {
 	enable = true;
+	order = ["audio"];
       };
     };
   };
