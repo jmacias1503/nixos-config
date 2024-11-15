@@ -9,7 +9,6 @@
     home.packages = with pkgs ; [
       bluedevil
 	brave
-	browse
 	discord
 	fastfetch
 	gimp
