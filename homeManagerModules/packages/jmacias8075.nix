@@ -1,0 +1,36 @@
+{config, lib, pkgs, ...}:
+let
+browse = import ./scripts/browse.nix { inherit pkgs; };
+in
+{
+  options = {
+    hm-packages.jmacias8075.enable =
+      lib.mkEnableOption "enables jmacias8075 home-manager packages";
+  };
+  config = lib.mkIf config.hm-packages.jmacias8075.enable {
+    nixpkgs.config.allowUnfree = true;
+    home.packages = with pkgs ; [
+      bluedevil
+	brave
+	browse
+	discord
+	fastfetch
+	gimp
+	imv
+	inkscape
+	mpv
+	ncpamixer
+	obsidian
+	pomodoro
+	qrcp
+	qutebrowser
+	signal-desktop
+	slack
+	ttyper
+	whatsapp-for-linux
+	ytfzf
+	zoom-us
+	zsh
+	];
+  };
+}

@@ -78,6 +78,7 @@
     extraSpecialArgs = { inherit inputs; };
     users = {
       "jmacias8075" = import ./home-manager/jmacias8075/home.nix;
+      "guest" = import ./home-manager/guest/home.nix;
     };
   };
 

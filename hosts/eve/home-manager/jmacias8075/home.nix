@@ -4,6 +4,9 @@
     ./../../../../homeManagerModules
   ];
 
+  hm-packages.jmacias8075.enable = true;
+  hm-packages.guest.enable = true;
+
   home.sessionVariables = {
     EDITOR = "nvim";
     BROWSER = "brave";

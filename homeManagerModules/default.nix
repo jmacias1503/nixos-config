@@ -2,7 +2,7 @@
 {
   imports = [
     ./nixvim.nix
-    ./packages.nix
+    ./packages
     ./programs-config.nix
     ./shell.nix
   ];
