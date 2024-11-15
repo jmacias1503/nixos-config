@@ -12,6 +12,7 @@
       extensions = [
         "inmopeiepgfljkpkidclfgbgbmfcennb"
         "dlnejlppicbjfcfcedcflplfjajinajd"
+	"neebplgakaahbhdphmkckjjcegoiijjo"
       ];
       extraOpts = {
         "CookiesAllowedForUrls" = [
