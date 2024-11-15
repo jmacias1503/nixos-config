@@ -1,7 +1,4 @@
 {config, lib, pkgs, ...}:
-let
-browse = import ./scripts/browse.nix { inherit pkgs; };
-in
 {
   options = {
     hm-packages.jmacias8075.enable =
