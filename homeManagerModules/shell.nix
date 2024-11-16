@@ -11,7 +11,6 @@
       size = 100000;
       path = "${config.xdg.dataHome}/zsh/history";
     };
-    initExtra = "< $HOME/Documents/todo-list.txt";
     shellAliases = {
       v = "nvim";
       sb = "cd $HOME/Documents/second-brain";
