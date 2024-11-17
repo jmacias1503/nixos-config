@@ -13,14 +13,12 @@
     };
   };
 
-  outputs = {nixpkgs, ... } @ inputs:
-  let
-  in
-  {
+  outputs = {nixpkgs, ...} @ inputs: let
+  in {
     nixosConfigurations.eve = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
       modules = [
-	./hosts/eve/configuration.nix
+        ./hosts/eve/configuration.nix
       ];
     };
   };

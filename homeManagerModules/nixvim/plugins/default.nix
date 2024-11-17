@@ -1,10 +1,9 @@
-{...}:
-{
+{...}: {
   imports = [
     ./cmp.nix
-      ./lsp.nix
-      ./treesitter.nix
-      ./vimtex.nix
+    ./lsp.nix
+    ./treesitter.nix
+    ./vimtex.nix
   ];
   programs.nixvim.plugins = {
     mini.enable = true;

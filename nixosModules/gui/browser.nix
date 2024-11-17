@@ -1,6 +1,8 @@
-{config, lib, ...}:
-
 {
+  config,
+  lib,
+  ...
+}: {
   options = {
     browser.enable =
       lib.mkEnableOption "enables browser config";
@@ -12,7 +14,7 @@
       extensions = [
         "inmopeiepgfljkpkidclfgbgbmfcennb"
         "dlnejlppicbjfcfcedcflplfjajinajd"
-	"neebplgakaahbhdphmkckjjcegoiijjo"
+        "neebplgakaahbhdphmkckjjcegoiijjo"
       ];
       extraOpts = {
         "CookiesAllowedForUrls" = [

@@ -1,10 +1,8 @@
-{pkgs, ...}:
-let
+{pkgs, ...}: let
   customSt = pkgs.st.overrideAttrs (old: {
     src = ./st;
-    });
-in
-{
+  });
+in {
   environment.systemPackages = with pkgs; [
     dmenu
     ffmpeg

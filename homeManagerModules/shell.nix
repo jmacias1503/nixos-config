@@ -1,11 +1,10 @@
-{config, ...}:
-{
+{config, ...}: {
   programs.zsh = {
     enable = true;
     defaultKeymap = "vicmd";
     enableCompletion = true;
     localVariables = {
-      PROMPT="%n:%1~   󰄾  ";
+      PROMPT = "%n:%1~   󰄾  ";
     };
     history = {
       size = 100000;
