@@ -1,7 +1,7 @@
 {...}:
 {
   imports = [
-    ./nixvim.nix
+    ./nixvim
     ./packages
     ./programs-config.nix
     ./shell.nix
