@@ -7,7 +7,8 @@
   config = lib.mkIf config.hm-packages.jmacias8075.enable {
     nixpkgs.config.allowUnfree = true;
     home.packages = with pkgs ; [
-      bluedevil
+      alejandra
+	bluedevil
 	brave
 	discord
 	fastfetch
