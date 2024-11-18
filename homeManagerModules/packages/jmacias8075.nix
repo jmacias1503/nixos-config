@@ -31,6 +31,7 @@
       whatsapp-for-linux
       ytfzf
       zoom-us
+      zotero
       zsh
     ];
   };
