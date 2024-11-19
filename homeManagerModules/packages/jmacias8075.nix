@@ -22,6 +22,7 @@
       mpv
       ncpamixer
       obsidian
+      pdftk
       pomodoro
       qrcp
       qutebrowser
