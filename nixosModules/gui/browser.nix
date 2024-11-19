@@ -62,6 +62,7 @@
           "[*.]notion.so"
           "[*.]openstreetmap.org"
           "[*.]plane.so"
+	  "[*.]regexr.com"
           "[*.]prisma.io"
           "[*.]slack.com"
           "[*.]uaq.mx"
