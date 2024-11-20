@@ -11,7 +11,6 @@ in {
     scrot
     customSt
     xclip
-    xorg.xbacklight
     xwallpaper
   ];
 }
