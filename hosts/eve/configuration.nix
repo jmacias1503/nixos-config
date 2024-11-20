@@ -61,7 +61,7 @@
   users.users.jmacias8075 = {
     isNormalUser = true;
     description = "Alejandro";
-    extraGroups = ["networkmanager" "wheel" "audio"];
+    extraGroups = ["networkmanager" "wheel" "audio" "video"];
   };
   users.users.jmacias8075.ignoreShellProgramCheck = true;
 
