@@ -104,7 +104,6 @@
   # started in user sessions.
   # programs.mtr.enable = true;
   # programs.gnupg.agent = {
-  programs.light.enable = true;
   #   enable = true;
   #   enableSSHSupport = true;
   # };
