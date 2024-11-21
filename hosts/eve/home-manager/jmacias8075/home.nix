@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   imports = [
     ./../../../../homeManagerModules
+    ./packages.nix
   ];
 
   hm-packages.jmacias8075.enable = true;
@@ -36,6 +37,8 @@
 	"text/plain" = "neovim.desktop";
 	"application/pdf" = "zathura.desktop";
 	"image/jpeg" = "imv.desktop";
+	"image/jpg" = "imv.desktop";
+	"image/png" = "imv.desktop";
       };
     };
   };
