@@ -4,9 +4,6 @@
     ./packages.nix
   ];
 
-  hm-packages.jmacias8075.enable = true;
-  hm-packages.guest.enable = false;
-
   home.sessionVariables = {
     EDITOR = "nvim";
     BROWSER = "brave";
