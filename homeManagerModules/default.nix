@@ -5,4 +5,5 @@
     ./programs-config.nix
     ./shell.nix
   ];
+backupFileExtension = "backup";
 }
