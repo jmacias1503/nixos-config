@@ -3,14 +3,12 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 {
   pkgs,
-  inputs,
   ...
 }: {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ../../nixosModules
-    inputs.home-manager.nixosModules.default
   ];
   # Enabling modules
   browser.enable = true;
@@ -70,15 +68,6 @@
     isNormalUser = true;
     description = "Guest User";
     extraGroups = ["networkmanager" "audio"];
-  };
-
-  home-manager = {
-    backupFileExtension = "backup";
-    extraSpecialArgs = {inherit inputs;};
-    users = {
-      "jmacias8075" = import ./home-manager/jmacias8075/home.nix;
-      "guest" = import ./home-manager/guest/home.nix;
-    };
   };
 
   # Enable automatic login for the user.

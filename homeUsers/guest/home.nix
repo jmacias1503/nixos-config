@@ -1,6 +1,6 @@
 {...}: {
   imports = [
-    ./../../../../homeManagerModules
+    ./../../homeManagerModules
     ./packages.nix
   ];
 

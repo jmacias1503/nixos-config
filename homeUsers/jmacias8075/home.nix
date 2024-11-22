@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   imports = [
-    ./../../../../homeManagerModules
+    ./../../homeManagerModules
     ./packages.nix
   ];
 

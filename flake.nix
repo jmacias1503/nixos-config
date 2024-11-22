@@ -13,13 +13,20 @@
     };
   };
 
-  outputs = {nixpkgs, ...} @ inputs: let
+  outputs = {nixpkgs, home-manager, ...} @ inputs: let
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
   in {
     nixosConfigurations.eve = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
       modules = [
         ./hosts/eve/configuration.nix
       ];
+    };
+    homeConfigurations."jmacias8075" = home-manager.lib.homeManagerConfiguration {
+      inherit pkgs;
+
+      modules = [ ./homeUsers/jmacias8075/home.nix ];
     };
   };
 }
