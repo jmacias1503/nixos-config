@@ -24,7 +24,7 @@
       ];
     };
     homeConfigurations."jmacias8075" = home-manager.lib.homeManagerConfiguration {
-      inherit pkgs;
+      specialArgs = {inherit inputs pkgs;};
 
       modules = [ ./homeUsers/jmacias8075/home.nix ];
     };
