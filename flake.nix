@@ -13,7 +13,11 @@
     };
   };
 
-  outputs = {nixpkgs, home-manager, ...} @ inputs: let
+  outputs = {
+    nixpkgs,
+    home-manager,
+    ...
+  } @ inputs: let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
@@ -27,7 +31,7 @@
       inherit pkgs;
       extraSpecialArgs = {inherit inputs;};
 
-      modules = [ ./homeUsers/jmacias8075/home.nix ];
+      modules = [./homeUsers/jmacias8075/home.nix];
     };
   };
 }
