@@ -39,4 +39,5 @@
       };
     };
   };
+  home.homeDirectory = "/home/jmacias8075";
 }
