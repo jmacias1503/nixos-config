@@ -9,6 +9,7 @@
       brave
       discord
       fastfetch
+      figma-linux
       gimp
       imv
       inkscape
