@@ -33,5 +33,11 @@
 
       modules = [./homeUsers/jmacias8075/home.nix];
     };
+    homeConfigurations."guest" = home-manager.lib.homeManagerConfiguration {
+      inherit pkgs;
+      extraSpecialArgs = {inherit inputs;};
+
+      modules = [./homeUsers/guest/home.nix];
+    };
   };
 }
