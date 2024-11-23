@@ -5,6 +5,7 @@
     git
     gnumake
     htop
+    home-manager
     lf
     neovim
     pass
