@@ -56,7 +56,7 @@
   users.users.jmacias8075 = {
     isNormalUser = true;
     description = "Alejandro";
-    extraGroups = ["networkmanager" "wheel" "audio" "video"];
+    extraGroups = ["docker" "networkmanager" "wheel" "audio" "video"];
   };
   users.users.jmacias8075.ignoreShellProgramCheck = true;
 
@@ -99,6 +99,7 @@
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
+  virtualisation.docker.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
