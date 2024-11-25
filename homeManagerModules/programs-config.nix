@@ -1,4 +1,4 @@
-{...}: {
+{pkgs, ...}: {
   programs = {
     cmus = {
       enable = true;
@@ -18,6 +18,7 @@
     };
     lf = {
       enable = true;
+      package = pkgs.lf;
       settings = {
 	icons = true;
       };
