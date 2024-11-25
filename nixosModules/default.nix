@@ -3,5 +3,6 @@
     ./gui
     ./packages
     ./services
+    ./programs
   ];
 }
