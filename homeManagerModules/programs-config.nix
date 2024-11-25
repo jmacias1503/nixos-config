@@ -16,6 +16,12 @@
     gpg = {
       enable = true;
     };
+    lf = {
+      enable = true;
+      settings = {
+	icons = true;
+      };
+    };
     zathura = {
       enable = true;
       options = {
