@@ -42,6 +42,7 @@
         "DefaultJavaScriptSetting" = 2;
         "JavaScriptAllowedForUrls" = [
           "192.168.10.1"
+	  "[*.]aliexpress.com"
           "[*.]app.diagrams.net"
           "[*.]atlassian.net"
           "[*.]canva.com"
