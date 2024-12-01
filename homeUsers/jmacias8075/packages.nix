@@ -10,6 +10,7 @@
     gimp
     imv
     inkscape
+    kicad
     mpv
     ncpamixer
     obsidian
