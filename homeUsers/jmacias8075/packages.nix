@@ -15,6 +15,7 @@
     obsidian
     pdftk
     pomodoro
+    qmk
     qrcp
     qutebrowser
     signal-desktop
