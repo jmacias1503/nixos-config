@@ -2,6 +2,7 @@
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     alejandra
+    anki
     bluedevil
     brave
     discord
