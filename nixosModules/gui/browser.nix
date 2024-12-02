@@ -70,6 +70,7 @@
           "[*.]prisma.io"
           "[*.]slack.com"
           "[*.]uaq.mx"
+	  "[*.]vultr.com"
         ];
         "URLAllowlist" = [
           "https://chatgpt.com"
