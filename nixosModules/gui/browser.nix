@@ -36,6 +36,7 @@
           "[*.]prisma.io"
           "[*.]slack.com"
           "[*.]uaq.mx"
+	  "[*.]vultr.com"
         ];
         "DefaultCookiesSetting" = 2;
         "DefaultClipboardSetting" = 2;
