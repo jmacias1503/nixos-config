@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   config.services.postgresql = {
-    enable = false;
+    enable = true;
     ensureDatabases = ["postgres"];
     authentication = pkgs.lib.mkOverride 10 ''
       #type	database	DBuser	auth-method
