@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{pkgs, ...}: 
+let
+  tmux-chambauaq = import ./scripts/tmux-chambauaq.nix {inherit pkgs; };
+in
+{
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     alejandra
@@ -22,6 +26,7 @@
     qutebrowser
     signal-desktop
     slack
+    tmux-chambauaq
     ttyper
     whatsapp-for-linux
     ytfzf
