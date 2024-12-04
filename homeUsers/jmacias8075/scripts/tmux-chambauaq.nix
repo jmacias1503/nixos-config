@@ -10,6 +10,12 @@
       ${pkgs.tmux}/bin/tmux setenv AWS_S3_SECRET_KEY $AWS_S3_SECRET_KEY
       ${pkgs.tmux}/bin/tmux setenv DATABASE_URL $DATABASE_URL
       ${pkgs.tmux}/bin/tmux setenv JWT_SECRET_TOKEN $JWT_SECRET_TOKEN
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_ENGINES_CHECKSUM_IGNORE_MISSING $PRISMA_ENGINES_CHECKSUM_IGNORE_MISSING
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_MIGRATION_ENGINE_BINARY $PRISMA_MIGRATION_ENGINE_BINARY
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_QUERY_ENGINE_BINARY $PRISMA_QUERY_ENGINE_BINARY
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_QUERY_ENGINE_LIBRARY $PRISMA_QUERY_ENGINE_LIBRARY
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_INTROSPECTION_ENGINE_BINARY $PRISMA_INTROSPECTION_ENGINE_BINARY
+      ${pkgs.tmux}/bin/tmux setenv PRISMA_FMT_BINARY $PRISMA_FMT_BINARY
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "server"
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "db"
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "rest-tests"
