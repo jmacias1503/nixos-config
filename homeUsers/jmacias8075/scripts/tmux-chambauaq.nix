@@ -11,7 +11,13 @@
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"editor" "${pkgs.neovim}/bin/nvim ." C-m
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"server" "cd ~/Documents/projects/bolsa_de_trabajo_back" C-m
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"server" "${pkgs.nodejs}/bin/npm run start:dev" C-m
-      ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"db" "${pkgs.mongosh}/bin/mongosh $DATABASE_URL"
+      ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"db" "${pkgs.mongosh}/bin/mongosh $DATABASE_URL" C-m
+      ${pkgs.tmux}/bin/tmux select-window -t $SESH:"rest-tests"
+      ${pkgs.tmux}/bin/tmux split-window -v
+      ${pkgs.tmux}/bin/tmux split-window -h
+      ${pkgs.tmux}/bin/tmux select-pane -U
+      ${pkgs.tmux}/bin/tmux split-window -h
+      ${pkgs.tmux}/bin/tmux select-window -t $SESH:"editor"
     fi
 
     tmux attach-session -t $SESH
