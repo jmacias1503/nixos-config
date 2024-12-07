@@ -1,6 +1,7 @@
 {pkgs, ...}: 
 let
   tmux-chambauaq = import ./scripts/tmux-chambauaq.nix {inherit pkgs; };
+  daily-comms = import ./scripts/daily-coms.nix {inherit pkgs; };
 in
 {
   nixpkgs.config.allowUnfree = true;
@@ -9,6 +10,7 @@ in
     anki
     bluedevil
     brave
+    daily-comms
     discord
     fastfetch
     figma-linux
