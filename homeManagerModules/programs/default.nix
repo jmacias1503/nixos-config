@@ -1,5 +1,4 @@
-{...}:
-{
+{...}: {
   imports = [
     ./lf.nix
     ./git.nix

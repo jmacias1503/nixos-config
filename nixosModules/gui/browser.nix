@@ -15,7 +15,7 @@
         "inmopeiepgfljkpkidclfgbgbmfcennb"
         "dlnejlppicbjfcfcedcflplfjajinajd"
         "neebplgakaahbhdphmkckjjcegoiijjo"
-	"dbepggeogbaibhgnhhndojpepiihcmeb"
+        "dbepggeogbaibhgnhhndojpepiihcmeb"
       ];
       extraOpts = {
         "CookiesAllowedForUrls" = [
@@ -31,21 +31,21 @@
           "[*.]github.com"
           "[*.]gob.mx"
           "[*.]google.com"
-	  "[*.]indeed.com"
+          "[*.]indeed.com"
           "[*.]mercadolibre.com.mx"
           "[*.]neon.tech"
           "[*.]notion.so"
           "[*.]prisma.io"
           "[*.]slack.com"
           "[*.]uaq.mx"
-	  "[*.]vultr.com"
+          "[*.]vultr.com"
         ];
         "DefaultCookiesSetting" = 2;
         "DefaultClipboardSetting" = 2;
         "DefaultJavaScriptSetting" = 2;
         "JavaScriptAllowedForUrls" = [
           "192.168.10.1"
-	  "[*.]aliexpress.com"
+          "[*.]aliexpress.com"
           "[*.]app.diagrams.net"
           "[*.]atlassian.net"
           "[*.]canva.com"
@@ -59,7 +59,7 @@
           "[*.]github.com"
           "[*.]gob.mx"
           "[*.]google.com"
-	  "[*.]indeed.com"
+          "[*.]indeed.com"
           "[*.]meet.jit.si"
           "[*.]mercadolibre.com.mx"
           "[*.]neon.tech"
@@ -69,12 +69,12 @@
           "[*.]notion.so"
           "[*.]openstreetmap.org"
           "[*.]plane.so"
-	  "[*.]qmk.fm"
+          "[*.]qmk.fm"
           "[*.]regexr.com"
           "[*.]prisma.io"
           "[*.]slack.com"
           "[*.]uaq.mx"
-	  "[*.]vultr.com"
+          "[*.]vultr.com"
         ];
         "URLAllowlist" = [
           "https://chatgpt.com"

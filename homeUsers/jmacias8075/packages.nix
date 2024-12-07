@@ -1,9 +1,7 @@
-{pkgs, ...}: 
-let
-  tmux-chambauaq = import ./scripts/tmux-chambauaq.nix {inherit pkgs; };
-  daily-comms = import ./scripts/daily-comms.nix {inherit pkgs; };
-in
-{
+{pkgs, ...}: let
+  tmux-chambauaq = import ./scripts/tmux-chambauaq.nix {inherit pkgs;};
+  daily-comms = import ./scripts/daily-comms.nix {inherit pkgs;};
+in {
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     alejandra
