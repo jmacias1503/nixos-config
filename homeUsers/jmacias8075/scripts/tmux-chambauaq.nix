@@ -19,6 +19,7 @@
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "server"
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "db"
       ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "rest-tests"
+      ${pkgs.tmux}/bin/tmux new-window -t $SESH -n "version-control"
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"editor" "cd ~/Documents/projects/bolsa_de_trabajo_back" C-m
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"editor" "${pkgs.neovim}/bin/nvim ." C-m
       ${pkgs.tmux}/bin/tmux send-keys -t $SESH:"server" "cd ~/Documents/projects/bolsa_de_trabajo_back" C-m
@@ -29,6 +30,8 @@
       ${pkgs.tmux}/bin/tmux split-window -h
       ${pkgs.tmux}/bin/tmux select-pane -U
       ${pkgs.tmux}/bin/tmux split-window -h
+      ${pkgs.tmux}/bin/tmux select-window -t $SESH:"version-control"
+      ${pkgs.tmux}/bin/tmux split-window -v
       ${pkgs.tmux}/bin/tmux select-window -t $SESH:"editor"
     fi
 
