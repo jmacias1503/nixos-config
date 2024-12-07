@@ -23,6 +23,7 @@ in
     obsidian
     pdftk
     pomodoro
+    qbittorrent-qt5
     qmk
     qrcp
     qutebrowser
