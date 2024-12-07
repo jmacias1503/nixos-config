@@ -15,6 +15,7 @@
       sb = "cd $HOME/Documents/second-brain";
       chambauaq = "nix develop $HOME/Shells#chambauaq";
       osbuild = "sudo nixos-rebuild switch --flake $OSFLAKE/ --show-trace";
+      homebuild = "home-manager switch --flake $OSFLAKE/ --show-trace";
     };
     syntaxHighlighting.enable = true;
   };
